@@ -1,0 +1,26 @@
+#game {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer {
+    font-size: 8rem;
+}
+
+#memory {
+    width: 100%;
+}
+
+#numbers>*,
+form>* {
+    margin: 0 50px;
+    font-size: 30px;
+}
+
+form input {
+    width: 100px;
+    margin: 20px 50px;
+}
