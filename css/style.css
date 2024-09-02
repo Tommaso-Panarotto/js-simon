@@ -15,12 +15,12 @@
 }
 
 #numbers>*,
-form>* {
+#try>* {
     margin: 0 50px;
     font-size: 30px;
 }
 
-form input {
+#try input {
     width: 100px;
     margin: 20px 50px;
 }

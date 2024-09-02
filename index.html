@@ -17,6 +17,9 @@
 
     <!--style-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!--JS-->
+    <script src="js/function.js"></script>
 </head>
 
 <body>
@@ -24,22 +27,29 @@
     <section id="game">
 
         <!--Countdown-->
-        <div id="timer" class="fw-bold">30</div>
+        <div id="timer" class="fw-bold"></div>
 
         <!--Simon-->
         <section id="memory" class="mt-4 fs-4 text-center">
             <span id="instruction">Memorizza i numeri entro il tempo limite!</span>
 
             <!--form memory number-->
-            <form>
-                <input type="number"><input type="number"><input type="number"><input type="number"><input
-                    type="number">
-                <div id="button"><button class="btn btn-primary">Conferma</button></div>
+            <form id="form" class="d-none">
+                <div id="try">
+                    <input type="number">
+                    <input type="number">
+                    <input type="number">
+                    <input type="number">
+                    <input type="number">
+                </div>
+                <button id="button" class="btn btn-primary fs-4">Conferma</button>
+                <div class="message"></div>
             </form>
 
             <!--numeri-->
             <div id="numbers" class="mt-3">
-                <span>20</span><span>40</span><span>40</span><span>40</span><span>40</span>
+                <!--here numbers to memorize-->
+                efdwrfw
             </div>
         </section>
 
